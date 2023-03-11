@@ -1,13 +1,5 @@
 // Copyright 2022 UNN-IASR
 #include "fun.h"
-#include <iostream>
-#include <conio.h>
-#include <stdio.h>
-#include <locale.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-#include <cmath>
 
 unsigned int faStr1(const char *str) {
     int n = strlen(str);
@@ -118,6 +110,6 @@ unsigned int faStr3(const char *str) {
             }
         }
     }
-    result = round(len / count);
+    result = len / count;
     return result;
 }
