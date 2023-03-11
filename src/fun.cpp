@@ -7,7 +7,7 @@ unsigned int faStr1(const char *str) {
     bool letter = false;
     bool numb = false;
     bool inWord = false;
-    int count = 0;
+    unsigned int count = 0;
     char simbol;
     for (int i = 0; i < n; i++) {
         simbol = str[i];
@@ -46,7 +46,7 @@ unsigned int faStr2(const char *str) {
     bool inWord = false;
     bool middle = false;
     bool start = false;
-    int count = 0;
+    unsigned int count = 0;
     char simbol;
     for (int i = 0; i < n; i++) {
         simbol = str[i];
@@ -84,9 +84,9 @@ unsigned int faStr3(const char *str) {
     int n = strlen(str);
     bool spase = false;
     bool inWord = false;
-    int count = 0;
-    int len = 0;
-    int result;
+    unsigned int count = 0;
+    unsigned int len = 0;
+    unsigned int result;
     char simbol;
     for (int i = 0; i < n; i++) {
         simbol = str[i];
