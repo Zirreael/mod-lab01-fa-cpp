@@ -2,7 +2,7 @@
 #include "fun.h"
 
 unsigned int faStr1(const char *str) {
-    int n = strlen(str);
+    int n = size(str);
     bool spase = false;
     bool letter = false;
     bool numb = false;
@@ -40,7 +40,7 @@ unsigned int faStr1(const char *str) {
 }
 
 unsigned int faStr2(const char *str) {
-    int n = strlen(str);
+    int n = size(str);
     bool spase = false;
     bool numb = false;
     bool inWord = false;
@@ -81,7 +81,7 @@ unsigned int faStr2(const char *str) {
 }
 
 unsigned int faStr3(const char *str) {
-    int n = strlen(str);
+    int n = size(str);
     bool spase = false;
     bool inWord = false;
     unsigned int count = 0;
